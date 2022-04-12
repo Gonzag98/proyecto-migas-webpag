@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    margin-top: 0%;
+}
+
+/*  Barra de navegacion */
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    background-color: #f0dfca;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Main */
+
+/* Textos */
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Titulos */
+
+.titulo-inicio {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.titulo-historia {
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+.titulo-galeria {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.titulo-contacto {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.titulo-ubicacion {
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* Parrafos */
+
+.parrafo-1-inicio {
+    color: #000000;
+    text-align: left;
+}
+
+.parrafo-1-historia {
+    color: #000000;
+    text-align: left;
+}
+
+
+
+.parrafo-1-ubicacion {
+    color: #000000;
+    text-align: left;
+    padding-left: 1%;
+}
+
+
+/* Divs */
+
+.caja-texto-inicio {
+    background-color: #ffffff;
+    height: 80%;
+    width: 80%;
+    overflow: hidden;
+    padding: 1%;
+    margin: 2% 10%;
+    border-radius: 2%;
+}
+
+.caja-texto-historia {
+    background-color: #ffffff;
+    height: 70vh;
+    width: 165vh;
+    overflow: hidden;
+    padding: 2%;
+    margin: 2%;
+    display: flex;
+}
+
+.caja-imagenes-galeria {
+    height: 100vh;
+    width: 98vw;
+    padding: 1%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    grid-gap: 1%;
+} 
+
+.caja-formulario {
+
+    padding: 2%;
+    margin: 2%;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.ul-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.caja-mapa {
+    height: 100%;
+    padding: 1%;
+    margin: 1%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* Media quieris */
+
+@media screen and (max-width: 768px) {
+    
+.caja-imagenes-galeria{
+    grid-template-columns: 100%;
+}
+
+}
+
+/* Imagenes */
+
+.logo {
+    width: 10%;
+}
+
+
+.autor {
+    height: 400px;
+}
+
+.foto-galeria-1 {
+    height: 100%;
+}
+
+.foto-galeria-2 {
+    height: 100%;
+}
+
+.foto-galeria-3 {
+    height: 100%;
+}
+
+.foto-galeria-4 {
+    height: 100%;
+}
+
+.foto-galeria-5 {
+    height: 100%;
+}
+
+.foto-galeria-6 {
+    height: 100%;
+}
+
+
+/* Footer */
+
+.pie {
+    font-size: 14px;
+}
